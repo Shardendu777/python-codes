@@ -4,7 +4,7 @@ n=input()
 try:
     n=int(n)
     
-except ValueError:
+except ValueError: #if we don't write the error it will print invalid it more than on time 
     try :
         n=float(n)
         print("invalid")
