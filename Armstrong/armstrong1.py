@@ -10,13 +10,13 @@ except ValueError: #if we don't write the error it will print invalid it more th
         print("invalid")
         raise SystemExit("Exiting the program.")
 
-    except ValueError:
+    except ValueError: #if we don't write the error it will print invalid it more than on time 
         try:
             n=complex(n)
             print("invalid")
             raise SystemExit("Exiting the program.")
 
-        except ValueError:
+        except ValueError: #if we don't write the error it will print invalid it more than on time 
             print("invalid")
             raise SystemExit("Exiting the program.")
 
